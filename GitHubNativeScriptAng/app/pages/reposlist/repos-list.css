@@ -1,0 +1,16 @@
+#lv_repos {
+    margin: 10;
+}
+
+#i_repos_avatar {
+    width: 80;
+    height: 80;
+    margin-right: 10;
+}
+
+#l_repos_name {
+    background-color: royalblue;
+    color: white;
+    flex-grow: 1;
+    padding: 30;
+}

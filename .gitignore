@@ -1,0 +1,7 @@
+# Created by .ignore support plugin (hsz.mobi)
+/GitHubNativeScriptAng/platforms/
+/GitHubNativeScriptAng/app/**/*.js
+/.idea/
+/GitHubNativeScriptAng/node_modules/
+/GitHubNativeScriptAng/hooks/
+/GitHubNativeScriptAng/.idea
