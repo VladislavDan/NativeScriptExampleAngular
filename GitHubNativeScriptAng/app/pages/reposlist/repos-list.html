@@ -1,6 +1,6 @@
 <StackLayout orientation="vertical" (loaded)="loaded()">
-    <SearchBar id="sb_repos" hint="Search repositories" submit="reposSearchSubmit" clear="reposSearchClear"></SearchBar>
-    <ListView id="lv_repos" [items]="reposList" height="100%" itemTap="reposItemTap">
+    <SearchBar id="sb_repos" hint="Search repositories"></SearchBar>
+    <ListView id="lv_repos" [items]="reposList" height="100%" (itemTap)="reposItemTap($event)">
         <ng-template let-item="item">
             <FlexboxLayout orientation="vertical">
                 <Image id="i_repos_avatar" [src]="item.avatar" decodeWidth="400" decodeHeight="400"

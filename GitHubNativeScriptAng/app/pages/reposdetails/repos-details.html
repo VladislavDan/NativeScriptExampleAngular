@@ -1,0 +1,12 @@
+<StackLayout orientation="vertical">
+    <ActionBar title="Repositories Details" class="action-bar">
+        <NavigationButton android.systemIcon="ic_menu_back" (tap)="goBack($event)"></NavigationButton>
+    </ActionBar>
+    <ScrollView>
+        <StackLayout orientation="vertical">
+            <Image [src]="avatar" decodeWidth="400" decodeHeight="400" loadMode="async"></Image>
+            <Label id="l_repos_name_details" horizontalAlignment="center" fontSize="40" [text]="name"></Label>
+            <TextView [text]="description" editable="false"></TextView>
+        </StackLayout>
+    </ScrollView>
+</StackLayout>
