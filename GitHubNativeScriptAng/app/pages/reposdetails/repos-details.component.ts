@@ -6,8 +6,7 @@ import {Repos} from "../../../platforms/android/src/main/assets/app/pages/reposl
 
 @Component({
     selector: "repos-details",
-    templateUrl: "pages/reposdetails/repos-details.html",
-    styleUrls: ["pages/reposdetails/repos-details.css"]
+    templateUrl: "pages/reposdetails/repos-details.html"
 })
 
 export class ReposDetails {
